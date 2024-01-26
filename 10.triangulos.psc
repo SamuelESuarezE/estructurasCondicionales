@@ -11,7 +11,7 @@ Algoritmo triangulos
 		Si lado_a==lado_b==lado_c Entonces
 			Escribir 'El triangulo es equilatero'
 		SiNo
-			Si lado_a==lado_b O lado_a==lado_b O lado_b==lado_c Entonces
+			Si lado_a==lado_b O lado_a==lado_c O lado_b==lado_c Entonces
 				Escribir 'El triangulo es isosceles'
 			SiNo
 				Escribir 'El triangulo es escaleno'
