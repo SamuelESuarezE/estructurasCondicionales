@@ -10,5 +10,5 @@ if lado_a>lado_b+lado_c or lado_b>lado_a+lado_c or lado_c>lado_a+lado_b:
     print("No es un triangulo valido.")
 else:
     if lado_a==lado_b==lado_c: print("El triangulo es equilatero.")
-    elif lado_a==lado_b or lado_a==lado_b or lado_b==lado_c: print("El triangulo es isosceles.")
+    elif lado_a==lado_b or lado_a==lado_c or lado_b==lado_c: print("El triangulo es isosceles.")
     else: print("El triangulo es escaleno.")
